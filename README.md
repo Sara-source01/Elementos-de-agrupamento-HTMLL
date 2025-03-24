@@ -1,1 +1,1 @@
-# Estruturas-l-gicas-e-sem-ntica-HTML
+# Estruturas lógicas e semântica, Elementos genéricos e semânticos, Estrutura de uma página.
