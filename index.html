@@ -13,84 +13,107 @@
 </head>
 
 <body>
-    <!-- O <main> define o conteúdo principal da página, excluindo cabeçalhos, rodapés e barras laterais. -->
-    <img src="Imagens/EPAP.jpg" width="60" height="50"
-        alt="Estude bem, Pesquise sempre, Anote toda coisa, Pratique mais.">
-    <br><br>
-    <!-- O elemento <div> é um dos mais utilizados para agrupar conteúdo sem significado semântico específico.
-    Ele é frequentemente usado para fins de estilização e manipulação do DOM (Document Object Model) através de CSS e JavaScript. -->
-    <div>
-        <button><a href="entrar.html"><b>entrar</b></a></button>
-        <button><a href="insecreva-se.html" target="_blank"><b>insecrever-se</b></a></button>
-    </div>
-    <br>
-    <div>
-        <img src="Imagens/Notebook.webp" width="500"
-            alt="Um programador senta numa cadeira e trabalha no seu computador que está na mesa">
-    </div>
-    <br><br>
-    <!-- O <nav> é utilizado para agrupar links de navegação dentro de uma página, ajudando na organização e acessibilidade. -->
-    <ul>
-        <nav>
-            <li>
-                <a href="#learn">Conclusão</a>
-            </li>
-        </nav>
-    </ul>
-    <br>
-    <!-- O <header> é usado para definir o cabeçalho de uma página ou de uma seção, podendo conter logotipos, menus de navegação e títulos. -->
     <header>
-        <h1>Elementos de Agrupamento em HTML: Estruturando o Conteúdo da Página</h1>
-        <p>Os elementos de agrupamento em HTML são usados para organizar e estruturar o conteúdo de uma página da web.
-            Eles ajudam a dividir a página em seções lógicas, facilitando o design, a acessibilidade e a manutenção do
-            código.
-        </p>
+        <!-- O <header> é usado para definir o cabeçalho de uma página ou de uma seção, podendo conter logotipos, menus de navegação e títulos. -->
+        <img src="Imagens/EPAP.jpg" width="60" height="50"
+            alt="Estude bem, Pesquise sempre, Anote toda coisa, Pratique mais.">
+        <br><br>
+        <!-- O elemento <div> é um dos mais utilizados para agrupar conteúdo sem significado semântico específico.
+    Ele é frequentemente usado para fins de estilização e manipulação do DOM (Document Object Model) através de CSS e JavaScript. -->
+        <div>
+            <button><a href="entrar.html"><b>entrar</b></a></button>
+            <button><a href="insecreva-se.html" target="_blank"><b>insecrever-se</b></a></button>
+        </div>
+        <br>
+        <div>
+            <img src="Imagens/Notebook.webp" width="500"
+                alt="Um programador senta numa cadeira e trabalha no seu computador que está na mesa">
+        </div>
+        <br><br>
+        <!-- O <nav> é utilizado para agrupar links de navegação dentro de uma página, ajudando na organização e acessibilidade. -->
+        <ul>
+            <nav>
+                <li>
+                    <a href="#learn">Conclusão</a>
+                </li>
+            </nav>
+        </ul>
     </header>
+    <br>
+    <main>
+        <section>
+            <!-- O <main> define o conteúdo principal da página, excluindo cabeçalhos, rodapés e barras laterais. -->
+            <h1>Elementos de Agrupamento em HTML: Estruturando o Conteúdo da Página</h1>
+            <p>Os elementos de agrupamento em HTML são usados para organizar e estruturar o conteúdo de uma página da
+                web.
+                Eles ajudam a dividir a página em seções lógicas, facilitando o design, a acessibilidade e a manutenção
+                do
+                código.
+            </p>
+        </section>
+        <br>
+        <!-- O <section> é utilizado para agrupar conteúdo relacionado dentro de uma página.
+         Ele confere significado semântico ao agrupamento e é recomendado para estruturar seções distintas de um site. -->
+        <section>
+            <article>
+                <h2>Informações adicionais</h2>
+                <img src="Imagens/pesquisa.jpeg" width="500" height="400"
+                    alt="chaves de computador com um chave de lupa">
+                <p>Os elementos de agrupamento em HTML desempenham um papel crucial na organização e estruturação do
+                    conteúdo de
+                    uma página da web.lidade. Esses elementos também ajudam no SEO (Search Engine Optimization),
+                    garantindo que
+                    os mecanismos de busca compreendam melhor a hierarquia e a relevância do conteúdo.</p>
+            </article>
+            <br><br>
+            <article>
+                <h3>A Importância dos Elementos de Agrupamento</h3>
+                <img src="Imagens/codes.jpeg" width="500"
+                    alt="Uma programadora olha para a tela grande que contém vários códigos que reflite no seu rosto"
+                    width="300">
+
+                <p>
+                    A utilização adequada dos elementos de agrupamento torna o código mais legível e facilita sua
+                    manutenção.
+                    Além disso, melhora a experiência do usuário ao proporcionar uma navegação mais fluida e intuitiva.
+                    Esses
+                    elementos também auxiliam no desenvolvimento responsivo, permitindo um layout mais organizado em
+                    diferentes
+                    dispositivos e tamanhos de tela.
+                </p>
+            </article>
+        </section>
+        <br>
+        <section id="learn">
+            <article>
+                <h4><u>Conclusão</u></h4>
+                <p>Os elementos de agrupamento em HTML são fundamentais para estruturar páginas de forma organizada e
+                    semântica.
+                    Seu uso adequado melhora a acessibilidade, facilita a manutenção do código e aprimora a experiência
+                    do
+                    usuário. Incorporar esses elementos corretamente não apenas melhora a apresentação visual, mas
+                    também
+                    otimiza a página para mecanismos de busca e melhora a compatibilidade com leitores de tela.
+                    Portanto, ao
+                    desenvolver um site, é essencial utilizar esses elementos para criar um layout claro, responsivo e
+                    bem
+                    estruturado.
+                </p>
+            </article>
+        </section>
+    </main>
     <br>
     <!-- O <aside> é utilizado para exibir informações complementares, como barras laterais, anúncios ou conteúdos adicionais. -->
     <aside>
-        <h2>Informações adicionais</h2>
-        <img src="Imagens/pesquisa.jpeg" width="500" height="400" alt="chaves de computador com um chave de lupa">
-        <p>Os elementos de agrupamento em HTML desempenham um papel crucial na organização e estruturação do conteúdo de
-            uma página da web.lidade. Esses elementos também ajudam no SEO (Search Engine Optimization), garantindo que
-            os mecanismos de busca compreendam melhor a hierarquia e a relevância do conteúdo.</p>
+        <ul>
+            <strong>
+                <li>
+                    <a href="https://www.google.com/url?client=internal-element-cse&cx=c5f6ccbd4ce9405a8&q=https://www.w3schools.com/html/html5_semantic_elements.asp&sa=U&ved=2ahUKEwiWkratvKGMAxXdRLgEHR-0MigQFnoECAgQAQ&usg=AOvVaw1OF7uullUNj_KTWQMfbgZ6"
+                        target="_blank">Saiba mais</a>
+            </strong>
+            </li>
+        </ul>
     </aside>
-    <br><br>
-    <article>
-        <h3>A Importância dos Elementos de Agrupamento</h3>
-        <img src="Imagens/codes.jpeg" width="500"
-            alt="Uma programadora olha para a tela grande que contém vários códigos que reflite no seu rosto"
-            width="300">
-
-        <p>
-            A utilização adequada dos elementos de agrupamento torna o código mais legível e facilita sua manutenção.
-            Além disso, melhora a experiência do usuário ao proporcionar uma navegação mais fluida e intuitiva. Esses
-            elementos também auxiliam no desenvolvimento responsivo, permitindo um layout mais organizado em diferentes
-            dispositivos e tamanhos de tela.
-        </p>
-    </article>
-    <br>
-    <!-- O <section> é utilizado para agrupar conteúdo relacionado dentro de uma página.
-         Ele confere significado semântico ao agrupamento e é recomendado para estruturar seções distintas de um site. -->
-    <section id="learn">
-        <h4><u>Conclusão</u></h4>
-        <p>Os elementos de agrupamento em HTML são fundamentais para estruturar páginas de forma organizada e semântica.
-            Seu uso adequado melhora a acessibilidade, facilita a manutenção do código e aprimora a experiência do
-            usuário. Incorporar esses elementos corretamente não apenas melhora a apresentação visual, mas também
-            otimiza a página para mecanismos de busca e melhora a compatibilidade com leitores de tela. Portanto, ao
-            desenvolver um site, é essencial utilizar esses elementos para criar um layout claro, responsivo e bem
-            estruturado.
-        </p>
-    </section>
-    <br>
-    <ul>
-        <strong>
-            <li>
-                <a href="https://www.google.com/url?client=internal-element-cse&cx=c5f6ccbd4ce9405a8&q=https://www.w3schools.com/html/html5_semantic_elements.asp&sa=U&ved=2ahUKEwiWkratvKGMAxXdRLgEHR-0MigQFnoECAgQAQ&usg=AOvVaw1OF7uullUNj_KTWQMfbgZ6"
-                    target="_blank">Saiba mais</a>
-        </strong>
-        </li>
-    </ul>
     <br>
     <!-- O <footer> define o rodapé de uma página ou de uma seção, geralmente contendo informações de contato, direitos autorais ou links importantes. -->
     <footer>
